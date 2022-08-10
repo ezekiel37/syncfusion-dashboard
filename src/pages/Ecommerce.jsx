@@ -119,7 +119,7 @@ const Ecommerce = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="lg:flex">
           <div
             className=" rounded-2xl md:w-400 p-4 m-3"
             style={{ backgroundColor: currentColor }}
@@ -247,7 +247,7 @@ const Ecommerce = () => {
             </button>
           </div>
           <p className="text-xs cursor-pointer hover:drop-shadow-xl font-semibold rounded-lg w-24 bg-orange-400 py-0.5 px-2 text-gray-200 mt-10">
-            16 APR, 2021
+            16 JULY, 2022
           </p>
 
           <div className="flex gap-4 border-b-1 border-color mt-6">
@@ -294,13 +294,14 @@ const Ecommerce = () => {
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
         </div>
-        <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+        <div className="w-auto bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
           <div className="flex justify-between">
             <p className="text-xl font-semibold">Daily Activities</p>
             <button type="button" className="text-xl font-semibold text-gray-500">
               <IoIosMore />
             </button>
           </div>
+          <div className="lg:flex">
           <div className="mt-10">
             <img
               className="md:w-96 h-50 "
@@ -308,11 +309,10 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">More Features coming soon!</p>
+              <p className="text-gray-400 ">By Ezekiel Ojo</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+             More features like login, signup, and more will be coming soon.
               </p>
               <div className="mt-3">
                 <Button
@@ -323,6 +323,7 @@ const Ecommerce = () => {
                 />
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
