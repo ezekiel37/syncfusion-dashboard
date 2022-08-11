@@ -5,3 +5,4 @@
 This was made with syncfusion community version
 
 ## Stay up to date with new projects
+clone from develop that is the working version
